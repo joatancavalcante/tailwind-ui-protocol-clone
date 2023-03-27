@@ -13,20 +13,19 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={inter.className}>
-      <body className='bg-zinc-900'>
-        <ProviderTheme>
-          <Sidebar />
-          <div>
-            <Header />
-            <HeroPattern />
-
-            <div className="py-24 max-w-4xl px-8 mx-auto">
-              {children}
+    <html lang="en" className={inter.className}>      
+        <body /*className='bg-zinc-900'*/>
+          <ProviderTheme>
+            <Sidebar />
+            <div>
+              <Header />
+              <HeroPattern />
+              <div className="py-24 max-w-4xl px-8 mx-auto">
+                {children}
+              </div>
             </div>
-          </div>
-        </ProviderTheme>
-      </body>
+          </ProviderTheme>
+        </body>      
     </html>
   )
 }

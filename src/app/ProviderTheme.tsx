@@ -9,7 +9,7 @@ export function ProviderTheme({
     children: React.ReactNode
   }){
     return (
-        <ThemeProvider>
+        <ThemeProvider attribute='class'>
             {children}
         </ThemeProvider>
     )

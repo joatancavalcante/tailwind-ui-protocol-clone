@@ -7,7 +7,7 @@ export function Sidebar() {
 
       <nav className="mt-10 flex flex-col gap-6">
         <div className="flex flex-col gap-4">
-          <strong className="text-zinc-100 font-medium text-sm">
+          <strong className="text-zinc-900 dark:text-zinc-100 font-medium text-sm">
             Guides
           </strong>
 
@@ -22,7 +22,7 @@ export function Sidebar() {
           </div>
         </div>
         <div className="flex flex-col gap-4">
-          <strong className="text-zinc-100 font-medium text-sm">
+          <strong className="text-zinc-900 dark:text-zinc-100  font-medium text-sm">
             Resources
           </strong>
 
