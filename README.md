@@ -12,9 +12,9 @@ Configure tailwindcss.config.js file with the following configuration on content
 Delete api folder, favicon.ico and page.modules.css files from "src/app".
 
 Delete all content from global.css file and configure with following content:
-@tailwind base;
-@tailwind utilities;
-@tailwind components;
+`@tailwind base;`
+`@tailwind utilities;`
+`@tailwind components;`
 
 Run project with:
 ```bash
