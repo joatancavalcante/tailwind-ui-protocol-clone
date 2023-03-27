@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import { Sidebar } from '@/components/Sidebar'
 import { Header } from '@/components/Header'
 import { HeroPattern } from '@/components/HeroPattern'
+import { ProviderTheme } from './ProviderTheme'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,15 +15,17 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.className}>
       <body className='bg-zinc-900'>
-        <Sidebar />
-        <div>
-          <Header />
-          <HeroPattern />
+        <ProviderTheme>
+          <Sidebar />
+          <div>
+            <Header />
+            <HeroPattern />
 
-          <div className="py-24 max-w-4xl px-8 mx-auto">
-            {children}
+            <div className="py-24 max-w-4xl px-8 mx-auto">
+              {children}
+            </div>
           </div>
-        </div>
+        </ProviderTheme>
       </body>
     </html>
   )
