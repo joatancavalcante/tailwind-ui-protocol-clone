@@ -30,4 +30,6 @@ This project was developed using the following technologies:
 - [Next-Themes]
 - [Typescript]
 
+## 👀 Preview
+
 ![Gravação de Tela 2023-03-28 às 14 12 26](https://user-images.githubusercontent.com/7294833/228317458-263f3c32-1384-4723-a627-3c14b53e7b23.gif)
