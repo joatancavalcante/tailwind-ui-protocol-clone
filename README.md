@@ -1,5 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+
 ## 📏 Initial Configurations (to start development from this project)
 
 ```bash
@@ -21,15 +22,17 @@ Run project with:
 npm run dev 
 ```
 
+
 ## 🧪 Technologies
 
 This project was developed using the following technologies:
 
 - [NextJS](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Next-Themes]
-- [Typescript]
+- Next-Themes
+- Typescript
 
-## 👀 Preview
+
+## 🖥 Preview
 
 ![Gravação de Tela 2023-03-28 às 14 12 26](https://user-images.githubusercontent.com/7294833/228317458-263f3c32-1384-4723-a627-3c14b53e7b23.gif)
