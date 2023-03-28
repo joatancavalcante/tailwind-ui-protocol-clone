@@ -7,6 +7,8 @@ export default function PageTest(){
     const path = usePathname();
 
     return (
-        <h1>Page Test {path}</h1>
+        <main className="ml-14 prose prose-invert prose-headings:text-zinc-100 prose-headings:font-semibold prose-h1:text-3xl">
+         <h1>Page Test {path}</h1>
+        </main>
     )
 }
