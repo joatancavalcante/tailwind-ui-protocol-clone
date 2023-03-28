@@ -13,7 +13,10 @@ export function NavLink({children, href}: NavLinkProps) {
     const path = usePathname();
 
     return (
-        <Link className="px-4 py-1.5 border-l border-white/5 text-zinc-400 hover:text-white transition-colors" href={href}>
+        <Link 
+            data-active={path === href}
+            className="px-4 py-1.5 border-l border-white/5 text-zinc-400 hover:text-white transition-colors data-[active=true]:border-cyan-400" 
+            href={href}>
             {children}
         </Link>
     )
